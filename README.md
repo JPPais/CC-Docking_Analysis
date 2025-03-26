@@ -1,8 +1,29 @@
-# CC-Docking_Analysis
-This repository is dedicated to the analysis of docking results to extract and treat ligand-protein distances and score, while processing them for predictive modeling  
+# 🎯 CC-Docking Analysis   
 
-Before performing the molecular docking run, ligand and receptor preparation is necessary. Ligand preparation is included, requiring only a list componds in SMILES format, with additional data necessary for the output analysis. For receptor preparation, AutoDockTools was employed, following "traditional" methodologies.
+This repository is dedicated to the **analysis of molecular docking results**, focusing on **ligand-protein distances** and **scoring** to facilitate **predictive modeling**. 📊🔬  
 
-The docking runs were performed using Autodock Vina, hence all the output data analysis scripts are developed accordingly. Furthermore, docking execution scripts are not provided, since they are higly dependent of the computing setup you have access to. Also, the system employed delivered an *.out file containing the results for all the compounds docked and an initial preparation was performed. The *.out file was parsed and was splited in individual "compound_name.pdbqt" files for each compound.
+## 🛠️ Prerequisites  
+Before running molecular docking, **ligand** and **receptor** preparation is necessary:  
 
-After this, the sequence of scripts for analysis is provided, and leads to the assessment of a predictive model based in the docking results, with a binary classification system (active / inactive). 
+- **Ligand Preparation**:  
+  - Requires a **list of compounds** in **SMILES format**.  
+  - Additional data is necessary for output analysis.  
+-  **Receptor Preparation**:  
+  - Done using **AutoDockTools** following **traditional methodologies**.  
+
+## Docking Execution  
+- Docking was performed using **AutoDock Vina** 🏹.  
+- Output **analysis scripts** are tailored for **Vina-generated results**.  
+- **⚠️ Docking execution scripts are NOT included**, as they depend on your specific **computing setup**.  
+
+## 📂 Output Processing  
+- The system generates an **`.out` file** containing docking results for all compounds.  
+- Initial preprocessing splits this file into **individual `compound_name.pdbqt` files**.  
+
+## 🔬 Analysis Workflow  
+After preprocessing, the provided **sequence of scripts** allows:  
+✅ **Extraction and treatment of docking results**.  
+✅ **Evaluation of ligand-protein interactions**.  
+✅ **Development of a predictive model** using **binary classification** (Active 🔵 / Inactive ⚪).  
+
+ 
