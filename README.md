@@ -12,7 +12,7 @@ Before running molecular docking, **ligand** and **receptor** preparation is nec
   - Done using **AutoDockTools** following **traditional methodologies**.  
 
 ## Docking Execution  
-- Docking was performed using **AutoDock Vina** 🏹.  
+- Docking was performed using **AutoDock Vina**   
 - Output **analysis scripts** are tailored for **Vina-generated results**.  
 - **⚠️ Docking execution scripts are NOT included**, as they depend on your specific **computing setup**.  
 
